@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "swordtiers",
+  "version": "${version}",
+  "name": "SwordTiers",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/swordtiers/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "you.yuli.swordtiers.SwordTiers"
+    ]
+  },
+  "mixins": [
+    "swordtiers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
